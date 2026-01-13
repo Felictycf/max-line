@@ -24,6 +24,14 @@ max-line 是一个高性能的实时加密货币涨幅追踪仪表盘，专注�
 - 🎨 **响应式设计**: 自适应布局，支持桌面和移动端
 - 🔒 **类型安全**: 后端 Python 类型提示 + 前端 TypeScript 严格模式
 
+![Google Chrome 2026-01-14 00.21.05](./assets/Google Chrome 2026-01-14 00.21.05.png)
+
+![Typora 2026-01-14 00.22.55](./assets/Typora 2026-01-14 00.22.55.png)
+
+![Google Chrome 2026-01-14 00.22.33](./assets/Google Chrome 2026-01-14 00.22.33.png)
+
+
+
 ---
 
 ## 📋 目录
