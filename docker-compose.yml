@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: max-line-backend
+    ports:
+      - "8010:8000"
+    environment:
+      - MAXLINE_EXCHANGE=${MAXLINE_EXCHANGE:-binance}
+      - MAXLINE_MARKET=${MAXLINE_MARKET:-spot}
+      - MAXLINE_QUOTE=${MAXLINE_QUOTE:-USDT}
+      - MAXLINE_TIMEFRAME=${MAXLINE_TIMEFRAME:-1m}
+      - MAXLINE_LIMIT=${MAXLINE_LIMIT:-120}
+      - MAXLINE_TOP=${MAXLINE_TOP:-12}
+      - MAXLINE_CACHE_TTL_SECONDS=${MAXLINE_CACHE_TTL_SECONDS:-20}
+      - MAXLINE_AUTO_REFRESH=${MAXLINE_AUTO_REFRESH:-true}
+      - MAXLINE_REFRESH_INTERVAL_SECONDS=${MAXLINE_REFRESH_INTERVAL_SECONDS:-30}
+      - MAXLINE_CORS_ORIGINS=${MAXLINE_CORS_ORIGINS:-http://localhost:5173,http://127.0.0.1:5173}
+      - MAXLINE_PROXY_URL=${MAXLINE_PROXY_URL:-}
+    restart: unless-stopped
+    networks:
+      - max-line-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      container_name: max-line-frontend
+    ports:
+      - "5173:80"
+    environment:
+      - VITE_API_TARGET=${VITE_API_TARGET:-http://localhost:8010}
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - max-line-network
+
+networks:
+  max-line-network:
+    driver: bridge
