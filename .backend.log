@@ -1,0 +1,425 @@
+INFO:     Started server process [77177]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8010 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54764 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54867 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55096 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55274 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55484 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55613 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55831 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55840 - "GET /api/top-gainers?exchange=binance&market=swap&quote=USDT&timeframe=1m&limit=10&top=8&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55940 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56086 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56194 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56322 - "GET /api/top-gainers?exchange=binance&market=spot&quote=USDT&timeframe=1m&limit=10&top=5&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56412 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:56560 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56753 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56874 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57280 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57549 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58274 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58499 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58728 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59057 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60077 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62223 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62473 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62757 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63102 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63397 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65381 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50956 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51127 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51235 - "GET /api/top-gainers?timeframe=1h&limit=120&top=16&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51448 - "GET /api/top-gainers?timeframe=1h&limit=120&top=17&market=swap&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51452 - "GET /api/top-gainers?timeframe=1h&limit=120&top=18&market=swap&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51456 - "GET /api/top-gainers?timeframe=1h&limit=120&top=19&market=swap&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51467 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51622 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51818 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51905 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52154 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52279 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52491 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52663 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52857 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56561 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58842 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:52556 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53487 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53644 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53974 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54233 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54703 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55031 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55420 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55722 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56026 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56459 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56796 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:65311 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65339 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65429 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49250 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49336 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49516 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49595 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49786 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49914 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50113 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50275 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50597 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50842 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51224 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51492 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:51818 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:51944 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52131 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52273 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52541 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52688 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52986 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53132 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53383 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53515 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53776 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53942 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54168 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54285 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54543 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54649 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54913 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55040 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55302 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55419 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55631 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55770 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55994 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56190 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56486 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56753 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57042 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57167 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57372 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57496 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57744 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57834 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58009 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58152 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58400 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58547 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58807 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58941 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59124 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59220 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59380 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59497 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59708 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59786 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60088 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60205 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60438 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60556 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60877 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60998 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61185 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61329 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61498 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61603 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61872 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62003 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62239 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62367 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62499 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62556 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62800 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62920 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63097 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63261 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63498 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63641 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63845 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63928 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64152 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64201 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64379 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64490 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64707 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64786 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64998 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65239 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65466 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49279 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49450 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49532 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49704 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49786 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49929 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50222 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:50572 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:50743 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50967 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51105 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51331 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51478 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51673 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51799 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52005 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52145 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52357 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52514 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52695 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52794 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52970 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53096 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53317 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53463 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53635 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53767 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54154 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54368 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54477 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54641 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54744 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54909 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54999 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55195 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55368 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55582 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55920 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56032 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56181 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56304 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56469 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56564 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56723 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56853 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57160 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57320 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57509 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57662 - "GET /api/top-gainers?timeframe=1h&limit=120&top=20&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57788 - "GET /api/top-gainers?timeframe=1h&limit=120&top=21&market=swap&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57792 - "GET /api/top-gainers?timeframe=1h&limit=120&top=22&market=swap&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57796 - "GET /api/top-gainers?timeframe=1h&limit=120&top=23&market=swap&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57800 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57924 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58050 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58130 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58252 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58330 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58467 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58586 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58818 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59033 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59168 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59294 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59482 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59588 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59754 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59886 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60245 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60572 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60812 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61000 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61231 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61372 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61565 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61773 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62120 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62302 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62487 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62681 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62768 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63007 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63132 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63377 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63525 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63684 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63780 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64068 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64183 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64384 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64516 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64659 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64770 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64958 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65167 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65276 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65414 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49372 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49594 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49715 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49886 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49974 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50179 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50352 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50502 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50612 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50958 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51087 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51423 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:51564 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51780 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51910 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52072 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52171 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52354 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52492 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52651 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52788 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53012 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53161 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53396 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53515 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53682 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53820 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53973 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54085 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54209 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54350 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54659 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54879 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55062 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55170 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55311 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55474 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55718 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55830 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56007 - "GET /api/top-gainers?timeframe=1h&limit=120&top=24&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61196 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=spot&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61226 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=spot&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61211 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap&force=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61335 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61463 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61602 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61806 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61882 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62001 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62133 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62435 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62686 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62897 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63176 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63493 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63750 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63953 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64205 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64739 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64988 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65330 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49157 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49506 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49861 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50152 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50358 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50604 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50788 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51266 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51647 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52069 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52287 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52628 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52880 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53175 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53425 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53636 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53999 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54615 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54878 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55125 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55380 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55638 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55932 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56151 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56409 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56679 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57018 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57326 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57583 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57817 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58024 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58433 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58717 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58923 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59200 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59378 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59775 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60024 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60298 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60619 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60894 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61223 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61524 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61782 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61993 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62271 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62556 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62813 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63174 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63430 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64512 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64657 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64923 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65157 - "GET /api/top-gainers?timeframe=1m&limit=120&top=12&market=swap HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [77177]
